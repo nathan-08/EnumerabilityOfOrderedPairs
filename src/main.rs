@@ -3,16 +3,15 @@
 // This program demonstrates the enumerability of the set N^2
 // (the set of ordered pairs of natural numbers)
 //
-// If a set is enumerable then there exists a function f: N -> N^2
-// which is a bijection (one-to-one and onto).
+// If a set is enumerable then there exists a bijective function f: N -> N^2
 //
 // Define f recursively as follows:
 // f(n) = 
 //  if n == 0 then (0,0)
 //  else successor(f(n-1))
 //
-//  where successor is a function mapping N^2 -> N^2
-//  defined in the OrderedPairGenerator below.
+//  where successor is a function mapping N^2 -> N^2,
+//  defined in OrderedPairGenerator::next below.
 
 
 struct OrderedPairGenerator {
