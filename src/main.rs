@@ -1,7 +1,7 @@
 // This program demonstrates the enumerability of the set N^2
 // (the set of ordered pairs of natural numbers)
 //
-// If a set is enumerable then there exists a bijective function f: N -> N^2
+// If a set S is enumerable, then there exists a bijective function f: N -> S
 //
 // Define f recursively as follows:
 // f(n) = 
