@@ -1,5 +1,3 @@
-// Proof of enumerability of N^2
-//
 // This program demonstrates the enumerability of the set N^2
 // (the set of ordered pairs of natural numbers)
 //
